@@ -9,6 +9,10 @@
   color: white;
   position: relative;
 
+  ul.menu.mid{
+    display: none;
+  }
+
   .center-wrap{
     
     z-index: 0;
@@ -76,3 +80,46 @@ nav{
 
 // how to center 2 child only? like heading title? warp absolute rel to parent then flex center? 
 
+@media screen and (min-width: 1024px){
+  nav{
+
+    button{
+      display: none;
+    }
+  }
+
+ 
+  .hero{
+    background: url('./../images/desktop/image-hero.jpg') ; 
+    background-position: center;
+    background-size: cover;
+      background-repeat: no-repeat; 
+    ul.menu.mid{
+      display: flex;
+      gap: 1rem;
+      padding-right: 2rem;
+    }
+    .center-wrap{
+    justify-content: flex-start;
+    
+      h3{
+      width: 45rem; 
+      font-size: 4rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1280px) {
+  .container{
+    background: url('./../images/desktop/image-hero.jpg') ; 
+    background-position: center;
+    background-size: cover;
+      background-repeat: no-repeat;
+    padding: 0 13rem ;
+   
+  }
+  .hero{
+    background: none;
+  }
+}

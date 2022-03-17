@@ -17,6 +17,13 @@ const Header = () => {
           <div className="logo">
             <img src={logo} alt="" />
           </div>
+          <ul className='menu mid'>
+              <li>ABOUT</li>
+              <li>CARREER</li>
+              <li>EVENTS</li>
+              <li>PRODUCTS</li>
+              <li>SUPORT</li>
+            </ul>
   
           
           <button onClick={handleClick}><img src={open ? hamburger : close} alt="" /></button>
