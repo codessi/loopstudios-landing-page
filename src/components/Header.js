@@ -19,7 +19,7 @@ const Header = () => {
           </div>
   
           
-          <button onClick={handleClick}><img src={open?hamburger: close} alt="" /></button>
+          <button onClick={handleClick}><img src={open ? hamburger : close} alt="" /></button>
         </nav>         
         <div className={open?"menu-container hidden": "menu-container"}>
           <ul className='menu'>
