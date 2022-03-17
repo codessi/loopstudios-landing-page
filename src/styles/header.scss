@@ -1,0 +1,78 @@
+// is it  header or section?
+
+.hero{
+  // border: red solid;
+  height: 44rem;
+  background: url('./../images/mobile/image-hero.jpg') ;
+  background-size: cover;
+  background-position: center; 
+  color: white;
+  position: relative;
+
+  .center-wrap{
+    
+    z-index: 0;
+    // border: dotted;
+    height: 100%;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  h3.heading-title{
+    
+    font-size: 3rem;
+    border: white solid 2px;
+    font-family: "Josefin Sans";
+    margin: 1rem ;
+    padding: 1.3rem 1rem;
+
+  }
+
+  button{
+    // border: dotted;
+    
+  }
+
+  div.menu-container{
+    
+    position: absolute;
+    background-color: black;
+    // border: dotted;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    &.hidden{
+      display: none;
+    }
+
+    ul.menu{
+      margin-top: 10rem;
+      margin-left: 2rem;
+      font-size: 2rem;
+
+      li{
+        margin: .15rem 0
+      }
+    }
+
+  }
+
+}
+// what's include in nav? logo too?
+nav{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // margin: 1rem;
+  padding: 1rem;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+// how to center 2 child only? like heading title? warp absolute rel to parent then flex center? 
+
