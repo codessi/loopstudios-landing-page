@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/react-template-johan/static/css/main.b38c7fa3.css",
+    "main.js": "/react-template-johan/static/js/main.b6707de7.js",
+    "static/media/image-hero.jpg": "/react-template-johan/static/media/image-hero.9b5aacead42e955824d3.jpg",
+    "static/media/logo.svg": "/react-template-johan/static/media/logo.5b4e652aff88b09ef8f1d465f3db445b.svg",
+    "index.html": "/react-template-johan/index.html",
+    "static/media/icon-close.svg": "/react-template-johan/static/media/icon-close.bbbbb0069bb8a015e77966ccb00bf3cd.svg",
+    "static/media/icon-hamburger.svg": "/react-template-johan/static/media/icon-hamburger.5153cb809501d4309c231954bc0f9ec2.svg",
+    "main.b38c7fa3.css.map": "/react-template-johan/static/css/main.b38c7fa3.css.map",
+    "main.b6707de7.js.map": "/react-template-johan/static/js/main.b6707de7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b38c7fa3.css",
+    "static/js/main.b6707de7.js"
+  ]
+}
