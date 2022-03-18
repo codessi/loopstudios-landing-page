@@ -3,6 +3,8 @@ import './App.scss'
 import Header from './components/Header';
 import Interactive from './components/Interactive';
 import Creation from './components/Creation';
+import Footer from './components/Footer';
+
 
 function App() {
 
@@ -11,6 +13,8 @@ function App() {
       <Header />
       <Interactive />
       <Creation />
+      <Footer />
+
     </>
   );
 }
